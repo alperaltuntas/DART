@@ -108,8 +108,8 @@
 
 MPIFC = mpif90
 MPILD = mpif90
-FC = ifort
-LD = ifort
+FC = mpif90
+LD = mpif90
 
 # DISCUSSION ABOUT NETCDF. DART works with both V3 and V4 flavors of netCDF.
 # Some V4 installations also require the HDF5 libraries. Some don't.
