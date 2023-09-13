@@ -162,7 +162,7 @@ namelist /domain_nml/ clinic_distribution_type, nprocs_clinic, &
 !
 !------------------------------------------------------------------
 
-character(len=100) :: horiz_grid_file, vert_grid_file, &
+character(len=256) :: horiz_grid_file, vert_grid_file, &
                       topography_file, topography_outfile, &
                       bathymetry_file, region_info_file, &
                       bottom_cell_file, region_mask_file
